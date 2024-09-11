@@ -2,7 +2,7 @@ if DEF(FAITHFUL)
 	db 100,  50,  50,  70,  86,  96 ; 452 BST
 	;   hp  atk  def  spd  sat  sdf
 else
-	db 100,  50,  50,  70,  96,  96 ; 462 BST
+	db 100,  50,  50,  90, 106,  96 ; 492 BST
 	;   hp  atk  def  spd  sat  sdf
 endc
 
@@ -10,7 +10,7 @@ if DEF(FAITHFUL)
 	db NORMAL, FLYING ; type
 	db 90 ; catch rate
 else
-	db GHOST, FLYING ; type
+	db PSYCHIC, FLYING ; type
 	db 80 ; catch rate
 endc
 	db 162 ; base exp
