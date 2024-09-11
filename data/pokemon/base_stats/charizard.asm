@@ -2,8 +2,8 @@ if DEF(FAITHFUL)
 	db  78,  84,  78, 100, 109,  85 ; 534 BST
 	;   hp  atk  def  spd  sat  sdf
 else
-	db  78,  94,  78, 100,  99,  85 ; 534 BST
-	;   hp  atk  def  spd  sat  sdf
+	db  75, 100,  74, 100, 110,  75 ; 534 BST
+	;   hp  atk  def  100  sat  sdf
 endc
 
 if DEF(FAITHFUL)
@@ -20,7 +20,7 @@ endc
 if DEF(FAITHFUL)
 	abilities_for CHARIZARD, BLAZE, SOLAR_POWER, DROUGHT
 else
-	abilities_for CHARIZARD, BLAZE, SOLAR_POWER, TOUGH_CLAWS
+	abilities_for CHARIZARD, SOLAR_POWER, DROUGHT, TOUGH_CLAWS
 endc
 	db GROWTH_MEDIUM_SLOW ; growth rate
 	dn EGG_MONSTER, EGG_DRAGON ; egg groups
