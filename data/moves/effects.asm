@@ -3,6 +3,9 @@ INCLUDE "data/moves/effects_pointers.asm"
 MoveEffects: ; used only for BANK(MoveEffects)
 
 NormalHit:
+Struggle:
+TakeDown:
+WildCharge:
 AerialAce:
 Aeroblast:
 AquaJet:
@@ -173,9 +176,6 @@ FuryStrikes:
 
 RecoilHit:
 DoubleEdge:
-Struggle:
-TakeDown:
-WildCharge:
 BraveBird:
 	checkobedience
 	usedmovetext
