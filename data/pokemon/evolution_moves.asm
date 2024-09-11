@@ -1,8 +1,8 @@
 EvolutionMoves::
 	table_width 1, EvolutionMoves
 	db NO_MOVE      ; BULBASAUR
-	db NO_MOVE      ; IVYSAUR
-	db PETAL_DANCE  ; VENUSAUR
+	db ANCIENTPOWER ; IVYSAUR
+	db SLUDGE_BOMB  ; VENUSAUR
 	db NO_MOVE      ; CHARMANDER
 	db NO_MOVE      ; CHARMELEON
 	db WING_ATTACK  ; CHARIZARD
