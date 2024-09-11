@@ -1,4 +1,4 @@
-	db 105, 105,  75,  50,  65, 100 ; 500 BST
+	db 115, 115,  75,  50,  65, 110 ; 530 BST
 	;   hp  atk  def  spd  sat  sdf
 
 	db POISON, DARK ; type
@@ -8,7 +8,7 @@
 	db NUGGET ; item 2
 	dn GENDER_F50, 3 ; gender ratio, step cycles to hatch
 	INCBIN "gfx/pokemon/muk_alolan/front.dimensions"
-	abilities_for MUK_ALOLAN, POISON_TOUCH, GLUTTONY, CORROSION
+	abilities_for MUK_ALOLAN, POISON_TOUCH, REGENERATOR, CORROSION
 	db GROWTH_MEDIUM_FAST ; growth rate
 	dn EGG_INDETERMINATE, EGG_INDETERMINATE ; egg groups
 
