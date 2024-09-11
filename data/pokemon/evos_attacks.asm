@@ -64,7 +64,7 @@ VenusaurEvosAttacks:
 	db 23, TAKE_DOWN ; Sweet Scent → Take Down
 	db 28, GROWTH
 	db 31, DOUBLE_EDGE
-	db 39, ANCIENTPOWER ; Worry Seed → event move
+	db 39, PETAL_DANCE ; Worry Seed → event move
 	db 45, HEALINGLIGHT ; Synthesis → similar move
 	db 50, SEED_BOMB
 	db 53, SLUDGE_BOMB ; Solar Beam → Sludge Bomb
