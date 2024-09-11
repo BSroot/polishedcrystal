@@ -1,4 +1,4 @@
-	db  90,  85,  85,  95, 125, 100 ; 580 BST
+	db 100,  75, 100, 100, 125, 100 ; 600 BST
 	;   hp  atk  def  spd  sat  sdf
 
 	db PSYCHIC, FLYING ; type
