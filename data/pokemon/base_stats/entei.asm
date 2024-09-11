@@ -1,4 +1,4 @@
-	db 115, 115,  85, 100,  90,  75 ; 580 BST
+	db 115, 125,  85, 100,  90,  85 ; 600 BST
 	;   hp  atk  def  spd  sat  sdf
 
 	db FIRE, FIRE ; type
